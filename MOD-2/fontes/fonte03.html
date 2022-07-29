@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Fontes Externas Baixadas & Alinhamento de Texto</title>
+   <style>
+      /* importando fontes baixadas */
+      @font-face {
+         font-family: 'Love';
+         src: url('./fonts/love-larry.ttf') format('truetype');
+         /* tb posso colocar outras URLs no src da font-face, separando com virgula.
+
+         Tipos de format
+         -opentype(otf)
+         -truetype(ttf)
+         -embedded-opentype
+         -truetype-aap (Apple Advanced Typography)
+         -svg
+         */
+         font-style: normal;
+         font-weight: normal;
+      }
+      body{
+         font: 16px Arial, Helvetica, sans-serif;
+      }
+
+      h1{
+         text-align: center;
+         font: normal 3em Love, Times, serif;
+      }
+
+      p{
+         text-align: justify;
+         text-indent: 50px; /* aquele espacinho no começo do parágrafo */
+      }
+   </style>
+</head>
+<body>
+   <h1>Título</h1>
+   <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus error numquam voluptate rem quod, obcaecati, illum ut unde exercitationem deserunt minus. Reprehenderit sequi molestias mollitia laboriosam deleniti quo voluptatem!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione repudiandae provident, aliquid necessitatibus amet sequi a doloribus, cupiditate autem ab deleniti! Repellendus, sunt quae quo rerum ea voluptate itaque.
+   </p>
+   <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus error numquam voluptate rem quod, obcaecati, illum ut unde exercitationem deserunt minus. Reprehenderit sequi molestias mollitia laboriosam deleniti quo voluptatem!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione repudiandae provident, aliquid necessitatibus amet sequi a doloribus, cupiditate autem ab deleniti! Repellendus, sunt quae quo rerum ea voluptate itaque.
+   </p>
+   <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus error numquam voluptate rem quod, obcaecati, illum ut unde exercitationem deserunt minus. Reprehenderit sequi molestias mollitia laboriosam deleniti quo voluptatem!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione repudiandae provident, aliquid necessitatibus amet sequi a doloribus, cupiditate autem ab deleniti! Repellendus, sunt quae quo rerum ea voluptate itaque.
+   </p>
+</body>
+</html>

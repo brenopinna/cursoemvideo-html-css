@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formatação de Texto</title>
+</head>
+<body>
+   <h1>Principais Formatações</h1>
+   
+   <h2>Negrito / Destaque</h2>
+   <p>Nesta frase temos um <b>termo em negrito</b> usando a tag <code>&lt;b&gt</code>; (Não semântica).</p>
+   <p>Nesta frase temos um <strong>termo em destaque</strong> usando a tag <code>&lt;strong&gt;</code> (Semântica).</p>
+   
+   <h2>Itálico / Ênfase</h2>
+   <p>Nesta frase temos um <i>termo em itálico</i> usando a tag <code>&lt;i&gt;</code> (Não semântica).</p>
+   <p>Nesta frase temos um <em>termo em ênfase</em> usando a tag <code>&lt;em&gt;</code> (Semântica).</p>
+
+   <h2>Sublinhado / Inserido</h2>
+   <p><u>Texto sublinhado</u> com a tag <code>&lt;u&gt;</code> (não semântica)</p>
+   <p><ins>Texto inserido</ins> com a tag <code>&lt;ins&gt;</code> (semântica)</p>
+
+   <h2>Texto Marcado</h2>
+   <p>Podemos criar um <mark>texto marcado</mark> usando a tag <code>&lt;mark&gt;</code></p>
+
+   <h2>Texto Deletado</h2>
+   <p>Inserindo um <del>texto deletado</del>...</p>
+
+   <h2>Texto Sobrescrito</h2>
+   <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+
+   <h2>Texto Subscrito</h2>
+   <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
+
+
+   <h1>Outras Formatações</h1>
+
+   <h2>Código-fonte (<code>&lt;code&gt;</code>) / Pré-formatação (<code>&lt;pre&gt;</code>)</h2>
+   <p>O comando <code>document.querySelector('exemplo')</code> é escrito em JavaScript.</p>
+   <!--a tag <pre> considera quebras de linha, tabulações, etc..-->
+   <p>O código abaixo está dentro de uma tag <code>&lt;pre&gt;</code>, que leva em conta as quebras de linha, espaços, tabs, etc., dentro dela.</p>
+   <code><pre>
+   num = int(input('Digite um número: '))
+   if num % 2 == 0:
+      print(f'O número {num} é PAR')
+   else:
+      print(f'O número {num} é ÍMPAR')
+   print('Fim do Programa.')</pre>
+   </code>
+
+   <h2>Citações simples</h2>
+   <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
+
+   <h2>Citações completas</h2>
+   <p>Segundo Jeff Nobel, no sue livro HTML para Leigos:</p>
+   <!--esse parâmetro cite, serve pro mecanismo de busca entender de onde sua citação foi retirada.-->
+   <blockquote cite="https://cursoemvideo.com" style="max-width: 450px; text-align: justify;">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor sunt cum magni eveniet neque molestiae nobis, culpa, earum accusantium sed sequi laboriosam facilis molestias vitae rem dicta repudiandae repellendus eligendi!
+   </blockquote>
+
+   <h2>Abreviações</h2>
+   <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+
+   <h2>Texto invertido</h2>
+   <p><bdo dir="rtl">Breno é um programador lindão</bdo></p>
+
+   <p>OBS: Para encapsular um trecho selecionado com qualquer tag de sua escolha no VSCode, seguir os passos abaixo:</p>
+   <ul>
+      <li>
+         Selecionar trecho a ser encapsulado e pressionar Ctrl+Shift+P
+      </li>
+      <li>
+         Pesquisar e selecionar "Emmet: wrap with abbreviation"
+      </li>
+      <li>
+         Escrever a tag desejada e pressionar "Enter"
+      </li>
+   </ul>
+</body>
+</html>

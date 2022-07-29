@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Uso de Cores em CSS</title>
+   <style>
+      /* Representação por nomes */
+      h1:nth-of-type(1){
+         background-color: blue;
+         color: white;
+      }
+
+      /* Representação por hexadecimal */
+      /* Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F == 16 algarismos. do menor pro maior */
+      /* Cada par de letras é uma cor (red, green, blue). No exemplo abaixo, tem nada de red, nada de green e tudo de blue. */
+      h1:nth-of-type(2){
+         background-color: #0000ff;
+         color: #ffffff;
+      }
+
+      /* representação rgb, qtd de red, green e blue, respectivamente, variando de 0 a 255.*/
+      h1:nth-of-type(3){
+         background-color: rgb(0, 0, 255);
+         color: rgb(255,255,255);
+      }
+
+      /* representação hsl (hue(matiz), saturação e luminosidade) */
+      h1:nth-of-type(4){
+         background-color: hsl(240, 100%, 50%);
+         color: hsl(0, 0%, 100%);
+      }
+      /* Ao alterar a opacidade, aparece mais um parâmetro no final, que indica a transparência e varia com o tipo de indicação da cor. */
+   </style>
+</head>
+<body>
+   <h1>Exemplo de Cores</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius culpa quo pariatur, deserunt doloribus iusto distinctio veritatis amet molestias dolore repellat ab sit adipisci excepturi quaerat, exercitationem ex sint soluta?</p>
+
+   <h1>Exemplo de Cores</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius culpa quo pariatur, deserunt doloribus iusto distinctio veritatis amet molestias dolore repellat ab sit adipisci excepturi quaerat, exercitationem ex sint soluta?</p>
+
+   <h1>Exemplo de Cores</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius culpa quo pariatur, deserunt doloribus iusto distinctio veritatis amet molestias dolore repellat ab sit adipisci excepturi quaerat, exercitationem ex sint soluta?</p>
+
+   <h1>Exemplo de Cores</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius culpa quo pariatur, deserunt doloribus iusto distinctio veritatis amet molestias dolore repellat ab sit adipisci excepturi quaerat, exercitationem ex sint soluta?</p>
+</body>
+</html>

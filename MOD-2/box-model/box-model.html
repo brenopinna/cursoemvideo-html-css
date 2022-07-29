@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Box Model & DevTools</title>
+   <style>
+      body{
+         font-family: Arial, Helvetica, sans-serif ;
+      }
+      #box{
+         width: 100px;
+         height: 100px;
+         background-color: red;
+         border: 10px solid darkred;
+         margin: 0 auto; /* centraliza */
+      }
+
+      .destaque{
+         color: white;
+         background-color: blue;
+         font-weight: bold;
+         text-align: center;
+      }
+
+      span{
+         width: 300px;
+         height: 50px;
+      } /* só será aplicado no span com display inline-block, pois o inline não muda de tamanho. */
+   </style>
+</head>
+<body>
+   <div id="box"></div>
+   <p>Nas DevTools do Chrome, pode-se alterar as dimensões facilmente, basta clicar nos tamanhos e:</p>
+   <ul>
+      <li>Rolar o mouse</li>
+      <li>Pressionar CTRL + seta baixo/ seta cima/ rolar o mouse (de 100 em 100)</li>
+      <li>Pressionar SHIFT + seta baixo/ seta cima/ rolar o mouse (de 10 em 10)</li>
+      <li>Pressionar ALT + seta baixo/ seta cima/ rolar o mouse (de 0.1 em 0.1)</li>
+   </ul>
+   <p>Para se criar a própria box-shadow nas DevTools do Chrome, basta entrar la e clicar na propriedade box-shadow do elemento, isso fará com que um pop-up se abra, com diversas funcionalidades para se criar sombras.</p>
+   <dl>
+      <dt>Box-level</dt>
+      <dd>Ocupa toda a largura da tela e quebra a linha, independente do tamanho do conteúdo.</dd>
+
+      <dt>Display Block</dt>
+      <dd>Segue as características do Box-level</dd>
+      
+      <dt>Inline-level</dt>
+      <dd>Ocupa somente o espaço do conteúdo, e só quebra a linha caso o conteúdo não caiba..</dd>
+      
+      <dt>Display Inline</dt>
+      <dd>Segue as características do Inline-level</dd>
+
+      <dt>Display inline-block</dt>
+      <dd>É um inline-level, mas vc pode alterar o box-sizing (width e height).</dd>
+
+      <dt>Shorthand no DevTools</dt>
+      <dd>Para ver tudo que foi declarado numa shorthand, basta clicar na setinha do DevTools.</dd>
+   </dl>
+
+   <h1>Exemplo de display block/inline/inline-block</h1>
+   <code><pre>
+      span{
+         width: 300px;
+         height: 50px;
+      }
+
+      Esse estilo será aplicado no span com display inline-block,
+      pois o inline não muda de tamanho.</pre>
+   </code>
+
+   <p class="destaque">Display block</p>
+
+   <span class="destaque">Display inline</span>
+   <span class="destaque">Display inline</span>
+   <span class="destaque">Display inline</span>
+
+   <span class="destaque" style="display: inline-block;">Display inline-block</span>
+</body>
+</html>

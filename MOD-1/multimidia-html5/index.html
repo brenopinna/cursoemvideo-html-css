@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mídias em HTML5</title>
+</head>
+<body>
+   <h1>Imagem dinâmica</h1>
+   <p>Aumente e diminua o tamanho do navegador.</p>
+   <picture>
+      <!-- A ordem das sources tem que ser, de cima pra baixo,
+         da menor imagem pra maior, caso contrário, dá ruim. -->
+      <source media="(max-width: 740px)" srcset="./images/foto-p.png" type="image/png">
+      <source media="(max-width: 1040px)" srcset="./images/foto-m.png" type="image/png">
+      <img src="./images/foto-g.png" alt="Imagem flexível">
+   </picture>
+
+   <h1>Reproduzindo áudio</h1>
+   <!--
+      DICA: No youtube, entrar nas configurações, youtube studio,
+      ai la membaixo na esquerda tem uma biblioteca de musicas sem
+      direitos autorais que posso usar.
+   -->
+   <p>Bem-te-vi:</p>
+   <audio controls preload="metadata"><!-- esse metadata faz o audio ser carregado aos poucos, em paralelo com o resto do site.-->
+      <source src="./audios/bem-te-vi.mp3" type="audio/mp3">
+      <p>Infelizmente seu navegador não conseguiu reproduzir este áudio. <a download type="audio/mpeg"" href="././audios/bem-te-vi.mp3">Clique aqui</a> para baixá-lo em formato MP3.</p>
+   </audio>
+
+   <p>Música lá da biblioteca do youtube:</p>
+   <audio src="./audios/youtube-audio.mp3" controls preload="metadata"></audio>
+
+   <h1>Inserindo vídeos hospedados localmente</h1>
+   <p>Este vídeo está hospedado no meu próprio servidor.</p>
+   <!-- esse poster é basicamente a thumbnail do video. -->
+   <!-- videos hospedados localmente, consomem mais tráfego de rede, logo, não é recomendado. -->
+   <video controls poster="./images/limoes-capa.png" width="560" preload="metadata">
+      <!-- a ordem que o navegador tenta carregar é de cima pra baixo. -->
+      <source src="./videos/limoes.mp4" type="video/mp4">
+      <source src="./videos/limoes-720p30.m4v" type="video/mp4">
+      <source src="./videos/limoes-720p30.webm" type="video/webm">
+      <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+   </video>
+
+   <h1>Incorporando vídeos do youtube</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ZDeMwHyBJ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   <h1>Inserindo vídeos do Vimeo</h1>
+   <iframe src="https://player.vimeo.com/video/197093965?color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</body>
+</html>
+</body>
+</html>

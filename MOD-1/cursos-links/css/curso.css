@@ -1,0 +1,23 @@
+iframe, .container{
+   width: 600px;
+}
+
+iframe{
+   height: 338px;
+   margin-bottom: 20px;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin: 0 auto;
+}
+
+.container a{
+   text-decoration: none;
+   font-size: 18px;
+   color: black;
+   font-weight: bold;
+}

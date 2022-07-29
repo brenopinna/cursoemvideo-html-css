@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Listas</title>
+</head>
+<body>
+   <h1>Trabalhando com Listas</h1>
+
+   <h2>Listas Ordenadas</h2>
+   <!--
+      - <ol> = ordered list / lista ordenada
+      - <li> = list item / item da lista
+      - no HTML5, o fechamento da tag <li> é opcional
+      - o parâmetro type da <ol> indica o formato do contador (romanos, letras, numero, etc)
+      - o parâmetro start da <ol> indica qual o primeiro contador da lista.
+   -->
+   <ol type="I"><!-- 1 A a I i-->
+      <li>Acordar
+      <li>Ligar para o João 
+      <li>Tomar café
+      <li>Escovar os dentes
+      <li>Ir para a faculdade
+      <li>Almoçar
+      <li>Ir pro trabalho
+      <li>Voltar pra casa
+      <li>Jantar
+      <li>Dormir
+   </ol>
+
+   <h2>Listas não Ordenadas</h2>
+   <!--
+      - <ul> = unordered list / lista não ordenada
+      - a <ul> tem o parametro type, que define o tipo
+         da bolinha
+   -->
+   <ul type="square"><!-- disc(padrão) circle square-->
+      <li>Pão</li>
+      <li>Leite</li>
+      <li>Tomate</li>
+      <li>Manteiga</li>
+      <li>Arroz</li>
+      <li>Feijão</li>
+   </ul>
+
+   <h2>Minhas Linguagens Favoritas</h2><!--mistura de listas-->
+   <ul>
+      <li>Antigas</li>
+      <ol>
+         <li>Clipper</li>
+         <li>Visual Basic</li>
+         <li>Fortran</li>
+         <li>Delphi</li>
+      </ol>
+      <li>Novas</li>
+      <ol>
+         <li>PHP</li>
+         <li>Python</li>
+         <li>JavaScript</li>
+         <li>Kotlin</li>
+      </ol>
+   </ul>
+
+   <h2>Meus Jogos Favoritos</h2><!--mais mistura de listas-->
+   <ul type="square">
+      <li>NES</li>
+      <ul>
+         <li>Mario Bros</li>
+         <li>Ninja Gaiden</li>
+      </ul>
+      <li>SNES</li>
+      <ul>
+         <li>Mario</li>
+         <li>Donkey Kong</li>
+      </ul>
+      <li>PlayStation</li>
+      <ul>
+         <li>Final Fantasy</li>
+         <li>Castlevania</li>
+      </ul>
+   </ul>
+
+   <h2>Lista de Definição</h2>
+   <!--
+      <dl> = definition list
+      <dt> = definition term
+      <dd> = definition description
+   -->
+   <dl>
+      <dt>HTML</dt>
+      <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+
+      <dt>CSS</dt>
+      <dd>Lingaugem de marcação para a criação do design de um site.</dd>
+
+      <dt>JavaScript</dt>
+      <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+   </dl>
+</body>
+</html>

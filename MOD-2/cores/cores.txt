@@ -1,0 +1,55 @@
+- Estudar psicologia das cores (pelo menos um pouco)
+
+- Não é recomendado desenvolver sites com fundo preto e letra branca,
+caso haja muito texto, pois essa combinação causa um maior cansaço visual.
+Melhor optar pelo fundo branco e letra preta.
+
+OBS: ver imagem do círculo cromático.
+
+CORES PRIMÁRIAS: Azul, amarelo e vermelho.
+
+CORES SECUNDÁRIAS: Laranja, violeta e verde.
+
+CORES TERCIÁRIAS: Todas as outras entre a primária e a secundária,
+o nome é formado pelo nome da primária + nome da secundária (EX: amarelo-esverdeado)
+
+CORES QUENTES E FRIAS:
+Do amarelo ao vermelho-arroxeado: QUENTES
+Do verde ao lilás: FRIAS
+
+PALETA DE CORES:
+Primeiro, decidir a cor principal.
+Depois, escolher outras cores que harmonizem com ela.
+De 3 a 5 cores (desconsiderando branco e preto da conta.)
+
+CORES COMPLEMENTARES: Opostas no círculo cromático, geram contraste (ex: amarelo e violeta.)
+
+CORES ANÁLOGAS: Cores que ficam uma do lado da outra, geram meio que um degradê.
+
+CORES ANÁLOGAS E UMA COMPLEMENTAR: Pega a principal, as duas análogas e a complementar à principal.
+
+CORES ANÁLOGAS RELACIONADAS: Pega 2 análogas, pula uma cor e pega a próxima. Serve para um contraste não tão forte assim, mas também diferenciando mais as cores.
+
+CORES INTERCALADAS: Basta pular as cores em intervalos iguais a partir da cor principal.
+
+CORES TRIÁDICAS: Basicamente as cores da paleta (3) formam um triângulo equilátero.
+
+CORES EM QUADRADO: Plmds, óbvio que forma um quadrado com as 4 cores da paleta.
+
+CORES TETRÁDICAS: Pega uma principal, sua complementar, pega outra cor e sua complementar. Pronto, paleta de 4 cores!
+
+MONOCROMIA: Pega uma única cor, e só modifica sua saturação e seu brilho (degradê).
+
+Link do Color Adobe, para criar paleta de cores com os conceitos apresentados acima:
+https://color.adobe.com/pt/create/color-wheel
+Nesse site tbm se pode arrastar uma imagem e o site te devolve uma paleta baseada naquela imagem.
+Tem também uma parte de paletas tendência que ajuda a decidir, caso vc esteja fazendo do zero.
+
+esse site do paletton serve pra ver como a paleta fica no site.
+http://paletton.com/#uid=31q1l0kEuvln1FitDDLGFp3KJjr
+
+gerador aleatório de paletas.
+https://coolors.co/b47eb3-fdf5bf-ffd5ff-92d1c3-8bb8a8
+
+extensão colorzilla pra pegar as cores das paginas (ja instalei)
+

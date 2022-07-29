@@ -1,0 +1,14 @@
+A construção de fontes se inicia pela letra x minúscula,
+e a altura de todas as outras irá se basear na altura do x minúsculo. (altura-x)
+
+Já para as letras maiúsculas, se baseia na altura do A ou do Q maiúsculos. (altura das maiusculas)
+
+As letras que possuem "vazamentos", como g, b, d, possuem uma altura ascendente (vaza pra cima)
+e descendente (vaza pra baixo)
+
+A distância da altura máxima e da mínima da fonte,
+todas as alturas, se chama de Corpo, e é ela q se configura no CSS.
+
+serifa: a linha na borda da letra (imagem serifa), nem todas as fontes tem isso.
+cria linhas imaginárias que facilitam a leitura.
+

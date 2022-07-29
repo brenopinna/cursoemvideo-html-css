@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Imagens Dinâmicas</title>
+   <style>
+      picture{
+         display: flex;
+         justify-content: center;
+      }
+   </style>
+</head>
+<body>
+   <h1>Imagem flexível</h1>
+   <p>Altere o tamanho da janela e veja a imagem se adaptar!</p>
+
+   <picture>
+      <source media="(max-width: 750px)" srcset="./images/paisagem-300.jpeg" type="image/jpeg">
+      <source media="(max-width: 1175px)" srcset="./images/paisagem-700.jpeg" type="image/jpeg">
+      <img src="./images/paisagem-1125.jpeg" alt="Pôr do sol no mar">
+   </picture>
+</body>
+</html>
