@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Teste</title>
+</head>
+<body>
+   <h1>Meu site principal</h1>
+   <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem natus, sapiente, aliquid similique commodi mollitia saepe molestiae suscipit libero quasi accusamus quo voluptas est dolorem ducimus. Deserunt corrupti ut at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae suscipit itaque ullam nemo sint voluptates, corporis, placeat id quam, omnis odio. Tenetur, vel blanditiis. Facilis in eaque libero cupiditate dolore?
+   </p>
+
+   <!--
+      sandbox="sandbox" ==> Bloqueia ações potencialmente maliciosas, tipo o envio de dados
+      referrerpolicy="no-referer" ==> O que tá carregado dentro do Iframe não coleta dados do usuário, tipo os q o google coleta pra exibir anuncios!
+      (esses dois de cima juntos dão uma baita segurança, bloqueia praticamente tudo)
+
+      sandbox="allow-same-origin" ==> permite conteudo do mesmo servidor
+      sandbox="allow-forms" ==> meio obvio ne
+      sandbox="allow-scripts" ==> tem que permitir pois o HTML5 executa scripts no envio de forms
+   -->
+   <iframe src="./pag004.html"
+      sandbox="allow-same-origin allow-forms allow-scripts" 
+      referrerpolicy="no-referer"
+   ></iframe>
+
+   <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga consequatur reprehenderit asperiores. Natus, dignissimos. Laudantium culpa illum reiciendis necessitatibus? Eligendi ullam cumque dolor nisi accusamus, illum quae veniam deleniti consequatur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, iusto? Maiores reprehenderit corporis voluptas provident nostrum quaerat iusto dignissimos, recusandae libero minus sunt dolorem labore, eos nisi veniam corrupti vel!
+   </p>
+</body>
+</html>
