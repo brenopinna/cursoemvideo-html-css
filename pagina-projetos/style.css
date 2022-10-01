@@ -16,7 +16,7 @@
 
 body{
    font-family: var(--fonte-padrao);
-   background: url('./MOD-3/background/images/wallpaper004.jpg') fixed center;
+   background: url('./images/background.jpg') fixed center;
    background-size: cover;
 }
 
