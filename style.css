@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root{
+   --fonte-padrao: "Open Sans", sans-serif;
+   --fonte-destaque: "Righteous", cursive;
+   --fonte-titulo: "Bebas Neue", cursive;
+}
+
+body{
+   font-family: var(--fonte-padrao);
+   background: url('./MOD-3/background/images/wallpaper004.jpg') fixed center;
+   background-size: cover;
+}
+
+header{
+   position: relative;
+   text-align: center;
+   padding: 15px 20px;
+   background-color: rgb(0, 179, 255);
+   box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+header h1{
+   font: normal clamp(2.5rem, 10vw, 3.5rem) var(--fonte-titulo);
+   color: white;
+   text-shadow: 3px 4px 5px rgba(0,0,0,0.3);
+}
+
+main{
+   width: 100%;
+   max-width: 1200px;
+   padding: 20px;
+   margin: auto;
+   background-color: rgb(240, 240, 240);
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+a{
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+}
+
+a *::after{
+   content: '\1F517';
+}
+
+a:hover{
+   text-decoration: underline;;
+}
+
+.project-title{
+   font: normal clamp(1.8rem, 6vw, 2.3rem) var(--fonte-destaque);
+   margin-bottom: 1rem;
+}
+
+.projeto img{
+   display: block;
+   margin-bottom: 5rem;
+   width: 100%;
+}
+
+.comprida{
+   max-width: 600px;
+}
+
+footer{
+   text-align: center;
+   padding: 15px 20px;
+   background-color: rgb(0, 179, 255);
+}
+
+footer a{
+   font-weight: bold;
+}
