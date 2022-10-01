@@ -1,0 +1,3 @@
+No caso de tabelas que ultrapassem a tela e causem rolagem horizontal,
+basta encapsular a <table> com uma div e colocar no css a propriedade
+overflow-x: auto.

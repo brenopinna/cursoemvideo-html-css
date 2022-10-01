@@ -1,2 +1,3 @@
 - li o pdf até o capítulo 17. (site android)
 - desafio feito: até o 11
+-estilizar e melhorar a página de links pros projtos

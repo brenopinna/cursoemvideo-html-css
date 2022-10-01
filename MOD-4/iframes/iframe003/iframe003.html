@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Teste Iframe</title>
+   <style>
+      body{
+         font-family: Arial, Helvetica, sans-serif;
+      }
+
+      iframe{
+         width: 100%;
+         display: block;
+         margin: auto;
+         max-width: 500px;
+         height: 300px;
+         border: 2px solid black;
+      }
+   </style>
+</head>
+<body>
+   <h1>Faça uma escolha</h1>
+   <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit saepe tempore temporibus culpa? Adipisci magni assumenda, eius eos eveniet fugit atque perferendis aut corrupti possimus veniam voluptas voluptatem enim deserunt.
+   </p>
+   <ul>
+      <li><a target="tela" href="./paginas/pag001.html">Primeira Página</a></li>
+      <li><a target="tela" href="./paginas/pag002.html">Segunda Página</a></li>
+      <li><a target="tela" href="./paginas/pag003.html">Terceira Página</a></li>
+   </ul>
+   <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, eum tempora. Expedita sint iste aliquid cum facilis ad aliquam? Reprehenderit eius eligendi accusamus explicabo cupiditate tempore magnam sequi quis consequatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas quibusdam, cum quia explicabo sapiente vero recusandae consequuntur, aut consectetur nemo, inventore qui autem molestias culpa alias quasi corrupti eos facere.
+   </p>
+   <iframe name="tela" srcdoc="
+      <h1>Escolha uma das páginas acima para ser exibida aqui!</h1>
+   "></iframe>
+</body>
+</html>
