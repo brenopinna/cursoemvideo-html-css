@@ -1,0 +1,61 @@
+/* Demais Mídias (screen & print) */
+
+/* 
+Typical Device Breakpoints
+(pode mudar c o tempo, conferir)
+--------------------------
+Pequenas Telas: até 600p
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+TV: acima de 1200px
+*/
+
+/* Impressão */
+@media print{
+   body{
+      background-image: url('../images/back-print.jpg');
+      /* esse bg-image no curso deu ruim, mas aqui na
+      hora de imprimir eu cliquei numa opção que o bg
+      image passou a aparecer, anotando aqui só pra deixar claro
+      (OPÇÃO: checkbox "gráficos de segundo plano")
+      */
+   }
+   main{border: 2px solid black; width: 90%;}
+   h1{
+      font-family: 'Courier New', Courier, monospace;
+      text-shadow: none;
+      color: black;
+      /* essas configurações de fonte no body não funcionou */
+   }
+   #phone{display: none;}
+   #print{display: block;}
+}
+
+/* Tablet */
+@media screen and (min-width: 768px){
+   body{
+      background-image: url('../images/back-tablet.jpg');
+   }
+   #phone{display: none;}
+   #tablet{display: block;}
+}
+
+/* Desktop */
+@media screen and (min-width: 992px){
+   body{
+      background-image: url('../images/back-pc.jpg');
+   }
+   #tablet{display: none;}
+   #pc{display: block;}
+}
+
+/* Grandes Telas */
+@media screen and (min-width: 1200px){
+   body{
+      background-image: url('../images/back-tv.jpg');
+   }
+   main{width: 700px;}
+   #pc{display: none;}
+   #tv{display: block;}
+}
