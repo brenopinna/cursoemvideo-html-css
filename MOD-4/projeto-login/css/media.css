@@ -1,3 +1,5 @@
+@import url('./global.css');
+
 @media screen and (min-width: 768px) {
    body{
       background: linear-gradient(to bottom, var(--lilas), var(--verde));
