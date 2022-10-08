@@ -16,7 +16,8 @@ main{
    left: 50%;
    transform: translate(-50%, -50%);
    margin: auto;
-   width: 250px;
+   width: 90%;
+   max-width: 400px;
    height: 515px;
    border-radius: 20px;
    background-color: white;
