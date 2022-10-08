@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/media-queries.css">
+</head>
+<body>
+   <header>
+      <h1>Meu site</h1>
+      <span id="menu-icon" class="material-icons">menu</span>
+      <menu id="menu-options">
+         <li><a href="#">Opção 1</a></li>
+         <li><a href="#">Opção 2</a></li>
+         <li><a href="#">Opção 3</a></li>
+         <li><a href="#">Opção 4</a></li>
+         <li><a href="#">Opção 5</a></li>
+      </menu>
+   </header>
+   <main>
+      <article>
+         <h2>Testando Media Queries</h2>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque assumenda provident explicabo dolorum commodi temporibus distinctio optio quasi harum quis, aspernatur maiores aliquid quidem doloribus adipisci voluptas quos eos veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam repudiandae quibusdam reprehenderit numquam et cumque beatae quo maiores soluta ad facilis sapiente veritatis dolores sed voluptatum explicabo, quidem ducimus corporis?
+         </p>
+         <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia impedit sint hic atque, commodi facere ratione aliquam recusandae provident culpa molestiae, rerum maiores deserunt, tenetur quo eaque reiciendis debitis libero?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi tempora sunt est id adipisci temporibus quas corporis delectus et repellat eligendi inventore molestias nostrum, tempore suscipit obcaecati voluptate fugit voluptates.
+         </p>
+         <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus inventore fugit quia optio magni id ipsa exercitationem vitae consequatur, doloribus animi cum odio facilis modi labore voluptate odit recusandae quam.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ullam maxime neque fugiat praesentium, omnis voluptatem odio atque minima obcaecati soluta magni nemo dolorem fugit hic perferendis incidunt dolore necessitatibus.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates eum nesciunt voluptatibus, ex reiciendis, cupiditate saepe enim cum omnis itaque. Autem minus itaque, esse dignissimos quaerat nisi voluptatibus iure.
+         </p>
+      </article>
+   </main>
+<script>
+   const menuIcon = document.getElementById('menu-icon');
+   const menuOptions = document.getElementById('menu-options');
+   menuIcon.addEventListener('click', () => {
+      if(menuOptions.classList.contains('show-menu')){
+         menuOptions.classList.remove('show-menu')
+      }else{
+         menuOptions.classList.add('show-menu')
+      }
+   })
+</script>
+</body>
+</html>

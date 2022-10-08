@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+   #menu-icon{display: none;}
+
+   #menu-options{display: block;}
+
+   #menu-options li{display: inline-block;}
+
+   #menu-options a{border: none;}
+
+   main{width: 748px;}
+}
